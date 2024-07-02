@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background: linear-gradient(to bottom, #88a2a7 55%, transparent 50%);
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 90px;
+    border: 10px solid white;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.header-text h2 {
+    color: #666;
+    margin: 0;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+.main {
+    display: flex;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.left-column {
+    text-align: right;
+    width: 25%;
+    padding-right: 30px;
+}
+
+.right-column {
+    width: 70%;
+    padding-left: 30px;
+}
+
+.section {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.section h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: #6a6666;
+    border-bottom: 4px solid #88a2a7;
+    padding-bottom: 5px;
+}
+
+.section p {
+    margin: 5px 0px;
+    color: #565353;
+    font-size: large;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.profile, .experience {
+    margin-bottom: 30px;
+}
+
+.experience .job {
+    margin-bottom: 50px;
+}
+
+.experience .job h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.experience .job p {
+    margin-bottom: 10px;
+}
+
+.experience .job ul {
+    list-style: disc inside;
+    padding-left: 0px;
+    color: #666;
+}
+
+.experience .job ul li {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icons p {
+    margin: 10px;
+    font-size: 18px;
+    /* color: white; */
+}
+
+.icons a {
+    color: rgb(40, 40, 40);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.icons i {
+    font-size: 20px;
+}

@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 10px;
+    color: #524e4e;
+}
+
+.container {
+    max-width: 800px;
+    height: 970px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header .contact-info {
+    text-align: left;
+    width: 35%;
+    font-size: large;
+    font-weight: 550;
+}
+
+.section {
+    margin-bottom: 0px;
+}
+
+.section h2 {
+    font-size: 1.6em;
+    color: skyblue;
+}
+
+.column-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column {
+    width: 60%;
+}
+
+.right-column {
+    width: 35%;
+}
+
+.right-column .section {
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
